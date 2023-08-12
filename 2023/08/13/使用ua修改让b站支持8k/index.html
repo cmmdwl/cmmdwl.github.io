@@ -22,15 +22,19 @@
     var CONFIG = {"hostname":"cmmdwl.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="cmmdwl&#39;blog">
-<meta property="og:url" content="http://cmmdwl.github.io/archives/2020/06/index.html">
+  <meta name="description" content="有些网站只认 UA 来提供网站资源,例如 B 站,微软的 NEW BING 这样的设计对我们有时候就很难受User-Agent Switcher and Manager 是一个好东西,主要目的是解决网站认 UA 进行提供资源但是自带的锁定 ua 功能太过于智障,例如设置好 UA 后不会跟随网站,只会傻乎乎的把所有 UA 丢给所有网站,例如如果使用这个代码 1Mozilla&#x2F;5.0 (Macinto">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用 UA 修改让 B 站支持 8k">
+<meta property="og:url" content="http://cmmdwl.github.io/2023/08/13/%E4%BD%BF%E7%94%A8ua%E4%BF%AE%E6%94%B9%E8%AE%A9b%E7%AB%99%E6%94%AF%E6%8C%818k/index.html">
 <meta property="og:site_name" content="cmmdwl&#39;blog">
+<meta property="og:description" content="有些网站只认 UA 来提供网站资源,例如 B 站,微软的 NEW BING 这样的设计对我们有时候就很难受User-Agent Switcher and Manager 是一个好东西,主要目的是解决网站认 UA 进行提供资源但是自带的锁定 ua 功能太过于智障,例如设置好 UA 后不会跟随网站,只会傻乎乎的把所有 UA 丢给所有网站,例如如果使用这个代码 1Mozilla&#x2F;5.0 (Macinto">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-08-12T17:14:54.000Z">
+<meta property="article:modified_time" content="2023-08-12T17:39:06.825Z">
 <meta property="article:author" content="cmmdwl">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://cmmdwl.github.io/archives/2020/06/">
+<link rel="canonical" href="http://cmmdwl.github.io/2023/08/13/%E4%BD%BF%E7%94%A8ua%E4%BF%AE%E6%94%B9%E8%AE%A9b%E7%AB%99%E6%94%AF%E6%8C%818k/">
 
 
 <script id="page-configurations">
@@ -38,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | cmmdwl'blog</title>
+  <title>使用 UA 修改让 B 站支持 8k | cmmdwl'blog</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4M8BDC06D"></script>
     <script>
@@ -150,56 +154,104 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 8 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://cmmdwl.github.io/2023/08/13/%E4%BD%BF%E7%94%A8ua%E4%BF%AE%E6%94%B9%E8%AE%A9b%E7%AB%99%E6%94%AF%E6%8C%818k/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="cmmdwl">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="cmmdwl'blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          使用 UA 修改让 B 站支持 8k
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-08-13 01:14:54 / 修改时间：01:39:06" itemprop="dateCreated datePublished" datetime="2023-08-13T01:14:54+08:00">2023-08-13</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>385</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
+        <p>有些网站只认 UA 来提供网站资源,例如 B 站,微软的 NEW BING 这样的设计对我们有时候就很难受<br>User-Agent Switcher and Manager 是一个好东西,主要目的是解决网站认 UA 进行提供资源<br>但是自带的锁定 ua 功能太过于智障,例如设置好 UA 后不会跟随网站,只会傻乎乎的把所有 UA 丢给所有网站,例如如果使用这个代码</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Mozilla</span>/<span class="number">5.0</span> (<span class="title class_">Macintosh</span>; <span class="title class_">Intel</span> <span class="title class_">Mac</span> <span class="variable constant_">OS</span> X <span class="number">10_15_7</span>) <span class="title class_">AppleWebKit</span>/<span class="number">605.1</span><span class="number">.15</span> (<span class="variable constant_">KHTML</span>, like <span class="title class_">Gecko</span>) <span class="title class_">Version</span>/<span class="number">15.4</span> <span class="title class_">Safari</span>/<span class="number">605.1</span><span class="number">.15</span></span><br></pre></td></tr></table></figure>
+<p>那么你在 b 站就能正常看 8k 视频了,但是,这时候你在打开 BING 就会发现聊天不可用,这时候你就又要切回来了,搞起来就很麻烦,但是实际上 UA 工具提供了代码的方式来自动化修改 UA.<br>首先,点 UA, 选择 options<br>这时候出现了一个新的页面,我们点击 custom mode 在下面的的{}中添加一点东西</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;*.bilibili.com&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15&quot;</span>,</span><br><span class="line">  <span class="string">&quot;*.bing.com&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6305002e)&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>举一反三时间到了,这个代码使用的是 json 格式,因此,你需要使用 “网站”:”目标 UA”, 这样来进行编写,并且在两端增加大的花括号,这样才能正常使用 也就是</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;网站(不要前面的 http:// 或者 https:// )&quot;</span>: <span class="string">&quot;随随便便的 ua&quot;</span>,</span><br></pre></td></tr></table></figure>
+<p>好了,大家剩下的就可以自己玩了</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-06-18T19:27:12+08:00"
-              content="2020-06-18">
-          06-18
-        </time>
-      </div>
+      <footer class="post-footer">
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/06/18/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%BC%96%E8%AF%91Sik%E7%94%B5%E5%8F%B0%E5%9B%BA%E4%BB%B6%E7%9A%84%E9%99%A4%E9%94%99%E8%BF%87%E7%A8%8B/" itemprop="url">
-            <span itemprop="name">记一次编译Sik电台固件的除错过程</span>
-          </a>
-      </div>
+        
 
-    </header>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/08/02/test/" rel="prev" title="Password Page Test">
+      <i class="fa fa-chevron-left"></i> Password Page Test
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
   </article>
-
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -367,6 +419,25 @@
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '57fcf9c5466000662790',
+      clientSecret: '8823b08a6fdbc977b1463890a007af9755e9e3ff',
+      repo        : 'cmmdwl.github.io',
+      owner       : 'cmmdwl',
+      admin       : ['cmmdwl'],
+      id          : 'fb61a31551f21686b1556a5b718f173c',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
